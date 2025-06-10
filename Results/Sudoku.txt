@@ -1,0 +1,502 @@
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 100
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 28805.894161224365
+ Validation: 0.9969135522842407, 61.88919472694397
+ Epoch 2 - training loss: 6794.04186630249
+ Validation: 1.0, 56.82314896583557
+ Epoch 3 - training loss: 3905.874444961548
+ Validation: 0.9996141791343689, 1.928902540821582
+ Epoch 4 - training loss: 2544.138343811035
+ Validation: 1.0, 1.1885240068659186
+ Epoch 5 - training loss: 1987.3102893829346
+ Validation: 1.0, 1.8209774903953075
+ Epoch 6 - training loss: 1950.7435178756714
+ Validation: 1.0, 1.265351502224803
+ Epoch 7 - training loss: 1819.2480955123901
+ Validation: 1.0, 3.4507313668727875
+ Epoch 8 - training loss: 1710.5427522659302
+ Validation: 1.0, 3.3528707027435303
+ Epoch 9 - training loss: 1611.7316570281982
+ Validation: 1.0, 1.6544151157140732
+ Epoch 10 - training loss: 1488.4297323226929
+ Validation: 1.0, 1.060922907665372
+ Epoch 11 - training loss: 1489.652093887329
+ Validation: 1.0, 1.1715504303574562
+ Epoch 12 - training loss: 1427.4125785827637
+ Validation: 1.0, 1.3735942505300045
+ Epoch 13 - training loss: 1461.958909034729
+ Validation: 1.0, 1.0271368771791458
+ Epoch 14 - training loss: 1472.983250617981
+ Validation: 1.0, 0.4199024364352226
+ Epoch 15 - training loss: 1460.0521259307861
+ Validation: 1.0, 1.1330624893307686
+ Epoch 16 - training loss: 1445.0322942733765
+ Validation: 1.0, 4.62261988222599
+ Epoch 17 - training loss: 1395.4163513183594
+ Validation: 1.0, 0.6707357410341501
+ Epoch 18 - training loss: 1468.8745365142822
+ Validation: 1.0, 2.2399452812969685
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 100
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 27561.474491119385
+ Validation: 0.9984567761421204, 60.35254347324371
+ Epoch 2 - training loss: 7157.544464111328
+ Validation: 0.9972993731498718, 64.71237641572952
+ Epoch 3 - training loss: 6265.498090744019
+ Validation: 0.991126537322998, 227.87013626098633
+ Epoch 4 - training loss: 2598.7782640457153
+ Validation: 0.9992284178733826, 7.702254679054022
+ Epoch 5 - training loss: 2202.854480743408
+ Validation: 0.9988425970077515, 21.630990982055664
+ Epoch 6 - training loss: 2259.543333053589
+ Validation: 1.0, 10.02354946732521
+ Epoch 7 - training loss: 1853.9519472122192
+ Validation: 1.0, 0.7575080236420035
+ Epoch 8 - training loss: 1659.1871948242188
+ Validation: 1.0, 1.959996785968542
+ Epoch 9 - training loss: 1601.6544723510742
+ Validation: 1.0, 2.5313465520739555
+ Epoch 10 - training loss: 1599.1685819625854
+ Validation: 1.0, 4.887982949614525
+ Epoch 11 - training loss: 1496.5075960159302
+ Validation: 1.0, 8.380429178476334
+ Epoch 12 - training loss: 1463.9993772506714
+ Validation: 1.0, 1.2904338352382183
+ Epoch 13 - training loss: 1481.6253786087036
+ Validation: 1.0, 1.2328830175101757
+ Epoch 14 - training loss: 1476.3157634735107
+ Validation: 1.0, 3.0294203385710716
+ Epoch 15 - training loss: 1418.9817180633545
+ Validation: 1.0, 3.3494295924901962
+ Epoch 16 - training loss: 1407.4068851470947
+ Validation: 1.0, 2.025819405913353
+ Epoch 17 - training loss: 1384.1563758850098
+ Validation: 1.0, 3.591425158083439
+ Epoch 18 - training loss: 1421.9914388656616
+ Validation: 1.0, 4.068496055901051
+ Epoch 19 - training loss: 1402.3626346588135
+ Validation: 1.0, 2.575052000582218
+ Epoch 20 - training loss: 1403.0013008117676
+ Validation: 1.0, 6.139818876981735
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 100
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 27087.75401687622
+ Validation: 0.9976851940155029, 84.58373081684113
+ Epoch 2 - training loss: 6450.353668212891
+ Validation: 0.998071014881134, 203.79114437103271
+ Epoch 3 - training loss: 3220.5355949401855
+ Validation: 0.9965277910232544, 55.820078521966934
+ Epoch 4 - training loss: 2403.7157611846924
+ Validation: 0.9953703880310059, 62.14703546650708
+ Epoch 5 - training loss: 2170.9223375320435
+ Validation: 1.0, 2.3738784082233906
+ Epoch 6 - training loss: 1925.105092048645
+ Validation: 1.0, 5.006719291210175
+ Epoch 7 - training loss: 1853.6510829925537
+ Validation: 0.9996141791343689, 18.076748371124268
+ Epoch 8 - training loss: 1708.190191268921
+ Validation: 1.0, 1.6940772905945778
+ Epoch 9 - training loss: 1600.871241569519
+ Validation: 1.0, 1.9072229824960232
+ Epoch 10 - training loss: 1544.0041799545288
+ Validation: 1.0, 3.558524940162897
+ Epoch 11 - training loss: 1469.5366878509521
+ Validation: 1.0, 2.8455220609903336
+ Epoch 12 - training loss: 1449.6651401519775
+ Validation: 1.0, 3.2020032554864883
+ Epoch 13 - training loss: 1453.926215171814
+ Validation: 1.0, 0.6229532137513161
+ Epoch 14 - training loss: 1450.5830812454224
+ Validation: 1.0, 1.9852305017411709
+ Epoch 15 - training loss: 1448.3560228347778
+ Validation: 1.0, 3.372741773724556
+ Epoch 16 - training loss: 1394.8092737197876
+ Validation: 1.0, 5.017806485295296
+ Epoch 17 - training loss: 1393.0628147125244
+ Validation: 1.0, 3.1952373012900352
+ Epoch 18 - training loss: 1434.4585161209106
+ Validation: 1.0, 2.276805989444256
+ Epoch 19 - training loss: 1387.1085424423218
+ Validation: 1.0, 1.561276763677597
+ Epoch 20 - training loss: 1450.6285028457642
+ Validation: 1.0, 3.523241326212883
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 21 - training loss: 1361.9616355895996
+ Validation: 1.0, 2.997786894440651
+ Epoch 22 - training loss: 1389.3008728027344
+ Validation: 1.0, 5.749749556183815
+ Epoch 23 - training loss: 1410.603503227234
+ Validation: 1.0, 3.3741706162691116
+ Epoch 24 - training loss: 1379.7532720565796
+ Validation: 1.0, 2.9779429212212563
+ Epoch 25 - training loss: 1424.9407291412354
+ Validation: 1.0, 2.7733907029032707
+ Epoch 26 - training loss: 1383.1399145126343
+ Validation: 1.0, 1.8618048392236233
+ Epoch 27 - training loss: 1362.0028429031372
+ Validation: 1.0, 2.8719365522265434
+ Epoch 28 - training loss: 1435.4959878921509
+ Validation: 1.0, 3.8484344333410263
+ Epoch 29 - training loss: 1411.5358324050903
+ Validation: 1.0, 2.05255313962698
+ Epoch 30 - training loss: 1310.786907196045
+ Validation: 1.0, 1.1939295902848244
+ Epoch 31 - training loss: 1378.9213180541992
+ Validation: 1.0, 3.886150024831295
+ Epoch 32 - training loss: 1384.4535541534424
+ Validation: 1.0, 4.192664459347725
+ Epoch 33 - training loss: 1412.8527336120605
+ Validation: 1.0, 1.2187724709510803
+ Epoch 34 - training loss: 1339.653917312622
+ Validation: 1.0, 2.1035644561052322
+ Epoch 35 - training loss: 1335.6454248428345
+ Validation: 1.0, 1.5666049271821976
+ Epoch 36 - training loss: 1379.9238452911377
+ Validation: 1.0, 0.9241985399276018
+ Epoch 37 - training loss: 1377.1614332199097
+ Validation: 1.0, 1.5125276558101177
+ Epoch 38 - training loss: 1404.6864757537842
+ Validation: 1.0, 2.7859224006533623
+ Epoch 39 - training loss: 1302.7600021362305
+ Validation: 1.0, 1.039782039821148
+ Epoch 40 - training loss: 1331.551685333252
+ Validation: 1.0, 1.7387801632285118
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 41 - training loss: 1299.0395259857178
+ Validation: 1.0, 1.8753859885036945
+ Epoch 42 - training loss: 1314.7102518081665
+ Validation: 1.0, 2.4545540884137154
+ Epoch 43 - training loss: 1413.5723848342896
+ Validation: 1.0, 48.4866943359375
+ Epoch 44 - training loss: 1397.1257972717285
+ Validation: 1.0, 1.8702650740742683
+ Epoch 45 - training loss: 1358.3754177093506
+ Validation: 1.0, 3.1342270001769066
+ Epoch 46 - training loss: 1325.8305320739746
+ Validation: 1.0, 1.7810379527509212
+ Epoch 47 - training loss: 1346.0446519851685
+ Validation: 1.0, 1.5245428644120693
+ Epoch 48 - training loss: 1303.7006282806396
+ Validation: 1.0, 2.0213164947927
+ Epoch 49 - training loss: 1318.6689176559448
+ Validation: 1.0, 1.1437015160918236
+ Epoch 50 - training loss: 1306.6733865737915
+ Validation: 1.0, 2.4461553916335106
+ Epoch 51 - training loss: 1286.90807056427
+ Validation: 1.0, 2.421519823372364
+ Epoch 52 - training loss: 1297.6197471618652
+ Validation: 1.0, 3.7215074747800827
+ Epoch 53 - training loss: 1305.3204164505005
+ Validation: 1.0, 3.663647271692753
+ Epoch 54 - training loss: 1309.1709280014038
+ Validation: 1.0, 1.7462538555264473
+ Epoch 55 - training loss: 1240.9035778045654
+ Validation: 1.0, 1.4447931833565235
+ Epoch 56 - training loss: 1259.2158117294312
+ Validation: 1.0, 2.0687635727226734
+ Epoch 57 - training loss: 1248.8368978500366
+ Validation: 1.0, 6.046844452619553
+ Epoch 58 - training loss: 1263.9335432052612
+ Validation: 1.0, 1.616212859749794
+ Epoch 59 - training loss: 1269.8307094573975
+ Validation: 1.0, 3.7750451266765594
+ Epoch 60 - training loss: 1248.7836513519287
+ Validation: 1.0, 3.1890172362327576
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 61 - training loss: 1193.0823574066162
+ Validation: 1.0, 1.5378722846508026
+ Epoch 62 - training loss: 1230.238886833191
+ Validation: 1.0, 0.9158777371048927
+ Epoch 63 - training loss: 1280.5355043411255
+ Validation: 1.0, 1.8423305004835129
+ Epoch 64 - training loss: 1281.5605554580688
+ Validation: 1.0, 1.163081668317318
+ Epoch 65 - training loss: 1228.4302911758423
+ Validation: 1.0, 1.6901998557150364
+ Epoch 66 - training loss: 1174.267744064331
+ Validation: 1.0, 1.1121134161949158
+ Epoch 67 - training loss: 1199.7509212493896
+ Validation: 1.0, 2.8624426275491714
+ Epoch 68 - training loss: 1201.8448848724365
+ Validation: 1.0, 1.8144135661423206
+ Epoch 69 - training loss: 1255.1585502624512
+ Validation: 1.0, 1.9052498303353786
+ Epoch 70 - training loss: 1221.2597856521606
+ Validation: 1.0, 3.8008412420749664
+ Epoch 71 - training loss: 1204.4220247268677
+ Validation: 1.0, 1.266619898378849
+ Epoch 72 - training loss: 1192.553942680359
+ Validation: 1.0, 4.933212906122208
+ Epoch 73 - training loss: 1235.065773010254
+ Validation: 1.0, 7.491205349564552
+ Epoch 74 - training loss: 1293.9364366531372
+ Validation: 1.0, 78.00309777259827
+ Epoch 75 - training loss: 1224.8093919754028
+ Validation: 1.0, 2.2456347420811653
+ Epoch 76 - training loss: 1226.7787294387817
+ Validation: 1.0, 2.3991034999489784
+ Epoch 77 - training loss: 1199.9875736236572
+ Validation: 1.0, 1.2876627072691917
+ Epoch 78 - training loss: 1193.9553804397583
+ Validation: 1.0, 1.6114364936947823
+ Epoch 79 - training loss: 1171.3219118118286
+ Validation: 1.0, 2.096899412572384
+ Epoch 80 - training loss: 1199.9517641067505
+ Validation: 1.0, 2.7899517193436623
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 81 - training loss: 1230.926010131836
+ Validation: 1.0, 1.2362502999603748
+ Epoch 82 - training loss: 1221.2691221237183
+ Validation: 1.0, 1.3194593526422977
+ Epoch 83 - training loss: 1187.9903411865234
+ Validation: 1.0, 1.230482168495655
+ Epoch 84 - training loss: 1194.9850778579712
+ Validation: 1.0, 1.4654380530118942
+ Epoch 85 - training loss: 1201.7922048568726
+ Validation: 1.0, 2.1726781725883484
+ Epoch 86 - training loss: 1187.617220878601
+ Validation: 1.0, 1.214352611452341
+ Epoch 87 - training loss: 1271.3119201660156
+ Validation: 1.0, 14.772565513849258
+ Epoch 88 - training loss: 1242.872314453125
+ Validation: 1.0, 2.765514738857746
+ Epoch 89 - training loss: 1194.9836750030518
+ Validation: 1.0, 2.187472887337208
+ Epoch 90 - training loss: 1205.7246360778809
+ Validation: 1.0, 1.7468686774373055
+ Epoch 91 - training loss: 1184.8371849060059
+ Validation: 1.0, 0.3832114338874817
+ Epoch 92 - training loss: 1220.2444591522217
+ Validation: 1.0, 0.7296523377299309
+ Epoch 93 - training loss: 1181.403263092041
+ Validation: 1.0, 1.715412188321352
+ Epoch 94 - training loss: 1192.4140396118164
+ Validation: 1.0, 2.5337936356663704
+ Epoch 95 - training loss: 1188.4891300201416
+ Validation: 1.0, 1.862617090344429
+ Epoch 96 - training loss: 1210.0200061798096
+ Validation: 1.0, 2.0024362802505493
+ Epoch 97 - training loss: 1191.1909036636353
+ Validation: 1.0, 2.0292855836451054
+ Epoch 98 - training loss: 1174.4325046539307
+ Validation: 1.0, 3.275253526866436
+ Epoch 99 - training loss: 1205.1730966567993
+ Validation: 1.0, 1.966093510389328
+ Epoch 100 - training loss: 1183.3967237472534
+ Validation: 1.0, 1.478670708835125
+ Test accuracy tensor(1.)% solved 100.0
+
+ Test accuracy tensor(1.)% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 100
+ Seed: 1
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 29982.240032196045
+ Validation: 0.9915123581886292, 218.03640699386597
+ Epoch 2 - training loss: 6041.233818054199
+ Validation: 0.9891975522041321, 358.2224631309509
+ Epoch 3 - training loss: 3253.4345140457153
+ Validation: 0.9969135522842407, 24.422387063503265
+ Epoch 4 - training loss: 2324.7963666915894
+ Validation: 0.9992284178733826, 3.0011893822811544
+ Epoch 5 - training loss: 2002.425121307373
+ Validation: 0.9992284178733826, 5.825624577701092
+ Epoch 6 - training loss: 1786.6319179534912
+ Validation: 1.0, 3.7863574475049973
+ Epoch 7 - training loss: 1760.5015878677368
+ Validation: 1.0, 1.3757761046290398
+ Epoch 8 - training loss: 1617.3554821014404
+ Validation: 1.0, 1.6670019142329693
+ Epoch 9 - training loss: 1523.1400470733643
+ Validation: 1.0, 5.067981474101543
+ Epoch 10 - training loss: 1490.595591545105
+ Validation: 1.0, 1.6583002470433712
+ Epoch 11 - training loss: 1483.0200471878052
+ Validation: 1.0, 7.303894728422165
+ Epoch 12 - training loss: 1446.8104753494263
+ Validation: 1.0, 2.3574031554162502
+ Epoch 13 - training loss: 1413.9377069473267
+ Validation: 1.0, 3.794139988720417
+ Epoch 14 - training loss: 1434.466320991516
+ Validation: 1.0, 1.9035103395581245
+ Epoch 15 - training loss: 1484.9843578338623
+ Validation: 1.0, 3.2179846838116646
+ Epoch 16 - training loss: 1465.9385032653809
+ Validation: 1.0, 4.02959218621254
+ Epoch 17 - training loss: 1452.529920578003
+ Validation: 1.0, 1.6015701703727245
+ Epoch 18 - training loss: 1445.694450378418
+ Validation: 1.0, 1.9357081800699234
+ Epoch 19 - training loss: 1440.1757831573486
+ Validation: 1.0, 3.7248550951480865
+ Epoch 20 - training loss: 1419.9679498672485
+ Validation: 1.0, 2.729722186923027
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 21 - training loss: 1413.1379585266113
+ Validation: 1.0, 22.73874205350876
+ Epoch 22 - training loss: 1513.548978805542
+ Validation: 1.0, 1.6602174676954746
+ Epoch 23 - training loss: 1401.9410705566406
+ Validation: 1.0, 3.294215679168701
+ Epoch 24 - training loss: 1400.3927755355835
+ Validation: 1.0, 1.623912438750267
+ Epoch 25 - training loss: 1378.321255683899
+ Validation: 1.0, 1.7542200088500977
+ Epoch 26 - training loss: 1413.1497240066528
+ Validation: 1.0, 3.897228293120861
+ Epoch 27 - training loss: 1449.6919927597046
+ Validation: 1.0, 1.5267375744879246
+ Epoch 28 - training loss: 1412.438856124878
+ Validation: 1.0, 1.3420979492366314
+ Epoch 29 - training loss: 1417.5649719238281
+ Validation: 1.0, 3.701227843761444
+ Epoch 30 - training loss: 1383.28857421875
+ Validation: 1.0, 3.574154183268547
+ Epoch 31 - training loss: 1337.8371782302856
+ Validation: 1.0, 2.579298034310341
+ Epoch 32 - training loss: 1339.4162797927856
+ Validation: 1.0, 1.4437960870563984
+ Epoch 33 - training loss: 1369.7067975997925
+ Validation: 1.0, 2.1464587040245533
+ Epoch 34 - training loss: 1382.3146600723267
+ Validation: 1.0, 2.064001377671957
+ Epoch 35 - training loss: 1400.4845495224
+ Validation: 1.0, 1.8900544457137585
+ Epoch 36 - training loss: 1382.4941310882568
+ Validation: 1.0, 2.029453594237566
+ Epoch 37 - training loss: 1433.1925420761108
+ Validation: 1.0, 3.5534326061606407
+ Epoch 38 - training loss: 1404.3857069015503
+ Validation: 1.0, 5.164028197526932
+ Epoch 39 - training loss: 1300.2552165985107
+ Validation: 1.0, 2.7842138782143593
+ Epoch 40 - training loss: 1313.6754999160767
+ Validation: 1.0, 3.889530248939991
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 41 - training loss: 1390.9370231628418
+ Validation: 1.0, 2.700170651078224
+ Epoch 42 - training loss: 1295.2697734832764
+ Validation: 1.0, 2.211313374340534
+ Epoch 43 - training loss: 1343.2015762329102
+ Validation: 1.0, 1.778120268136263
+ Epoch 44 - training loss: 1357.504584312439
+ Validation: 1.0, 3.167400509119034
+ Epoch 45 - training loss: 1286.8990182876587
+ Validation: 1.0, 2.1530847400426865
+ Epoch 46 - training loss: 1282.2865886688232
+ Validation: 1.0, 1.9605865702033043
+ Epoch 47 - training loss: 1302.110234260559
+ Validation: 1.0, 24.178093373775482
+ Epoch 48 - training loss: 1295.1327981948853
+ Validation: 1.0, 2.0035811103880405
+ Epoch 49 - training loss: 1293.5589179992676
+ Validation: 1.0, 6.158314868807793
+ Epoch 50 - training loss: 1239.0044078826904
+ Validation: 1.0, 1.0667055044323206
+ Epoch 51 - training loss: 1262.4665060043335
+ Validation: 1.0, 1.4826829507946968
+ Epoch 52 - training loss: 1232.1251773834229
+ Validation: 1.0, 3.2019640654325485
+ Epoch 53 - training loss: 1259.5692176818848
+ Validation: 1.0, 1.311559520661831
+ Epoch 54 - training loss: 1248.795433998108
+ Validation: 1.0, 1.7991236597299576
+ Epoch 55 - training loss: 1219.3128538131714
+ Validation: 1.0, 1.6349787265062332
+ Epoch 56 - training loss: 1253.8657913208008
+ Validation: 1.0, 1.7720992639660835
+ Epoch 57 - training loss: 1190.4980545043945
+ Validation: 1.0, 1.7132617309689522
+ Epoch 58 - training loss: 1241.494381904602
+ Validation: 1.0, 1.8300194554030895
+ Epoch 59 - training loss: 1189.7034139633179
+ Validation: 1.0, 2.0364348366856575
+ Epoch 60 - training loss: 1237.4303569793701
+ Validation: 1.0, 1.3572103567421436
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 61 - training loss: 1250.9736995697021
+ Validation: 1.0, 1.7519240640103817
+ Epoch 62 - training loss: 1212.8762712478638
+ Validation: 1.0, 1.3187014646828175
+ Epoch 63 - training loss: 1211.3490676879883
+ Validation: 1.0, 1.7793235592544079
+ Epoch 64 - training loss: 1143.0439653396606
+ Validation: 1.0, 2.4094455912709236
+ Epoch 65 - training loss: 1168.829867362976
+ Validation: 1.0, 1.7119077034294605
+ Epoch 66 - training loss: 1150.1304845809937
+ Validation: 1.0, 1.4727802947163582
+ Epoch 67 - training loss: 1150.7205390930176
+ Validation: 1.0, 3.4048530533909798
+ Epoch 68 - training loss: 1175.7552814483643
+ Validation: 1.0, 1.3966684825718403
+ Epoch 69 - training loss: 1176.7544288635254
+ Validation: 1.0, 0.9407348223030567
+ Epoch 70 - training loss: 1225.5833101272583
+ Validation: 1.0, 6.171806253492832
+ Epoch 71 - training loss: 1211.0560894012451
+ Validation: 1.0, 0.9751759078353643
+ Epoch 72 - training loss: 1178.641474723816
+ Validation: 1.0, 1.6688471622765064
+ Epoch 73 - training loss: 1210.6373405456543
+ Validation: 1.0, 100.9493579864502
+ Epoch 74 - training loss: 1136.988389968872
+ Validation: 1.0, 1.3096302524209023
+ Epoch 75 - training loss: 1171.977262020111
+ Validation: 1.0, 1.850462917238474
+ Epoch 76 - training loss: 1173.067398071289
+ Validation: 1.0, 3.126277931034565
+ Epoch 77 - training loss: 1213.973976135254
+ Validation: 1.0, 1.7864645645022392
+ Epoch 78 - training loss: 1252.3214235305786
+ Validation: 1.0, 6.844458535313606
+ Epoch 79 - training loss: 1221.8665475845337
+ Validation: 1.0, 2.692964792251587
+ Epoch 80 - training loss: 1192.5241718292236
+ Validation: 1.0, 1.3276313170790672
+ Test accuracy tensor(1.)% solved 100.0
+
+ Test accuracy tensor(1.)% solved 100.0

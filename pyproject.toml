@@ -1,0 +1,7 @@
+[project]
+name = "e-pll"
+version = "0.1.0"
+description = "Learn how to play (Visual) Sudoku using a dedicated loss"
+readme = "../README.md"
+requires-python = ">=3.9,<3.10"
+dependencies = ["torch", "torchvision", "pytoulbar2", "pandas", "matplotlib"]

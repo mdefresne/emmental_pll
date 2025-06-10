@@ -1,0 +1,9 @@
+gMLP==0.2
+matplotlib==3.7.2
+numpy==1.25.1
+pandas==2.0.3
+pytoulbar2==0.0.0.3.post1
+ResNet==0.1
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.65.0

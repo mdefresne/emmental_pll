@@ -1,0 +1,786 @@
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 100
+ Seed: 1
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 57158.11601257324
+ Validation: 1.0, 0.6883876528590918
+ Epoch 2 - training loss: 14336.40100479126
+ Validation: 1.0, 4.724742382764816
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14124.081382751465
+ Validation: 1.0, 1.897393774241209
+ Epoch 4 - training loss: 13706.307524681091
+ Validation: 1.0, 1.89602654799819
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13528.775818824768
+ Validation: 1.0, 1.061079941689968
+ Epoch 6 - training loss: 13414.615503311157
+ Validation: 1.0, 2.0238783434033394
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 58500.434613227844
+ Validation: 1.0, 8.705298244953156
+ Epoch 2 - training loss: 14219.22758102417
+ Validation: 1.0, 7.029872864484787
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13708.722686767578
+ Validation: 1.0, 1.3107596822082996
+ Epoch 4 - training loss: 13266.868188858032
+ Validation: 1.0, 1.791226927191019
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12417.339451789856
+ Validation: 1.0, 3.4532903358340263
+ Epoch 6 - training loss: 12415.370550632477
+ Validation: 1.0, 1.3879840709269047
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 56145.14642238617
+ Validation: 1.0, 4.2295002564787865
+ Epoch 2 - training loss: 14551.446004867554
+ Validation: 1.0, 5.284173563122749
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14022.189012527466
+ Validation: 1.0, 5.66021566092968
+ Epoch 4 - training loss: 13545.05741405487
+ Validation: 1.0, 8.334967643022537
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13212.447041511536
+ Validation: 1.0, 2.850789152085781
+ Epoch 6 - training loss: 12984.113374710083
+ Validation: 1.0, 1.8599297665059566
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 58706.67358875275
+ Validation: 1.0, 2.0309462808072567
+ Epoch 2 - training loss: 14367.253729820251
+ Validation: 1.0, 9.886869460344315
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14184.01315498352
+ Validation: 1.0, 3.039557069540024
+ Epoch 4 - training loss: 13798.832740783691
+ Validation: 0.998071014881134, 69.94933485984802
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13258.775433540344
+ Validation: 1.0, 1.7357372231781483
+ Epoch 6 - training loss: 12659.556041240692
+ Validation: 1.0, 2.08549777045846
+ Test accuracy 0.53125% solved 53.125
+
+ Epoch 7 - training loss: 11932.64986038208
+ Validation: 1.0, 2.060782890766859
+ Epoch 8 - training loss: 11927.781498908997
+ Validation: 1.0, 1.6793871447443962
+ Test accuracy 1.0% solved 100.0
+
+In average, 100.0% of the feasible solutions are predicted per test instance.
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 54037.57405948639
+ Validation: 1.0, 1.4825673289597034
+ Epoch 2 - training loss: 14214.128510475159
+ Validation: 1.0, 1.5592426508665085
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13786.7871799469
+ Validation: 1.0, 4.677106618881226
+ Epoch 4 - training loss: 13436.515413284302
+ Validation: 1.0, 1.518897220492363
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12309.814208984375
+ Validation: 1.0, 2.76254241168499
+ Epoch 6 - training loss: 11972.213326931
+ Validation: 1.0, 2.430275112390518
+ Test accuracy 0.1875% solved 18.75
+
+ Epoch 7 - training loss: 11725.985210895538
+ Validation: 1.0, 160.64881372451782
+ Epoch 8 - training loss: 11885.60697221756
+ Validation: 1.0, 1.351979847997427
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 57362.40552997589
+ Validation: 1.0, 3.5677836686372757
+ Epoch 2 - training loss: 14437.75786781311
+ Validation: 1.0, 2.389153338968754
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 56593.5728635788
+ Validation: 1.0, 1.0075272526592016
+ Epoch 2 - training loss: 14258.665852546692
+ Validation: 1.0, 3.63402908295393
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 58691.7861700058
+ Validation: 1.0, 9.193144500255585
+ Epoch 2 - training loss: 14374.448121070862
+ Validation: 1.0, 4.634648248553276
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 58032.588114738464
+ Validation: 1.0, 2.7161084786057472
+ Epoch 2 - training loss: 14614.551785469055
+ Validation: 1.0, 3.5990922078490257
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 61499.34097671509
+ Validation: 1.0, 2.541701577603817
+ Epoch 2 - training loss: 14667.553544998169
+ Validation: 1.0, 0.9234172813594341
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13953.693811416626
+ Validation: 1.0, 3.5350034832954407
+ Epoch 4 - training loss: 12870.448123931885
+ Validation: 1.0, 1.5591217391192913
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12460.134182929993
+ Validation: 1.0, 1.3720921576023102
+ Epoch 6 - training loss: 12062.84323644638
+ Validation: 1.0, 5.435942232608795
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 7 - training loss: 11777.445479869843
+ Validation: 1.0, 3.3248015120625496
+ Epoch 8 - training loss: 12029.289364337921
+ Validation: 1.0, 1.0652015544474125
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 9 - training loss: 11702.068002223969
+ Validation: 1.0, 1.4458975046873093
+ Epoch 10 - training loss: 11863.69591140747
+ Validation: 1.0, 1.7751121036708355
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 57111.8769903183
+ Validation: 1.0, 5.112149894237518
+ Epoch 2 - training loss: 14723.0928440094
+ Validation: 1.0, 1.7029669992625713
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14122.81925868988
+ Validation: 1.0, 5.2186092138290405
+ Epoch 4 - training loss: 13865.608655929565
+ Validation: 1.0, 3.5586372315883636
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13500.893279075623
+ Validation: 1.0, 1.4156917221844196
+ Epoch 6 - training loss: 13356.12063407898
+ Validation: 1.0, 1.588376484811306
+ Test accuracy 0.0625% solved 6.25
+
+ Epoch 7 - training loss: 12982.385575294495
+ Validation: 1.0, 2.1203381791710854
+ Epoch 8 - training loss: 12930.138149738312
+ Validation: 1.0, 2.3023959696292877
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 54152.41881752014
+ Validation: 1.0, 0.9752084650099277
+ Epoch 2 - training loss: 14562.380086898804
+ Validation: 1.0, 1.5117006488144398
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14214.578817367554
+ Validation: 1.0, 2.4576598927378654
+ Epoch 4 - training loss: 13807.128137588501
+ Validation: 1.0, 1.8880457542836666
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13595.566591262817
+ Validation: 1.0, 2.549389988183975
+ Epoch 6 - training loss: 13161.042514801025
+ Validation: 1.0, 1.7275248356163502
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 7 - training loss: 13153.552612304688
+ Validation: 1.0, 1.6906675808131695
+ Epoch 8 - training loss: 12863.149477005005
+ Validation: 1.0, 1.2362567000091076
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 57616.12012767792
+ Validation: 1.0, 4.424140274524689
+ Epoch 2 - training loss: 14672.704639434814
+ Validation: 1.0, 2.0003647841513157
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13856.8887758255
+ Validation: 1.0, 2.6970557048916817
+ Epoch 4 - training loss: 13178.849531173706
+ Validation: 1.0, 1.8726373799145222
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12937.337607383728
+ Validation: 1.0, 2.2624487206339836
+ Epoch 6 - training loss: 12005.22560787201
+ Validation: 1.0, 2.773316338658333
+ Test accuracy 0.4375% solved 43.75
+
+ Epoch 7 - training loss: 11833.574631690979
+ Validation: 1.0, 2.342130444943905
+ Epoch 8 - training loss: 11531.862595558167
+ Validation: 1.0, 2.4014588072896004
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 55581.63932991028
+ Validation: 1.0, 8.08926309645176
+ Epoch 2 - training loss: 14384.111386299133
+ Validation: 1.0, 2.1289969868957996
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13724.262342453003
+ Validation: 1.0, 1.7415237128734589
+ Epoch 4 - training loss: 13435.663913726807
+ Validation: 1.0, 3.011488899588585
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12885.87533569336
+ Validation: 1.0, 1.9989965111017227
+ Epoch 6 - training loss: 12674.877509117126
+ Validation: 1.0, 1.0944442171603441
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 7 - training loss: 12553.095629692078
+ Validation: 1.0, 4.678834870457649
+ Epoch 8 - training loss: 12550.614295959473
+ Validation: 1.0, 1.0968410782516003
+ Test accuracy 0.125% solved 12.5
+
+ Epoch 9 - training loss: 12208.444833278656
+ Validation: 1.0, 1.6829137541353703
+ Epoch 10 - training loss: 13127.65169429779
+ Validation: 1.0, 0.8910266775637865
+ Test accuracy 0.2785493827160494% solved 6.25
+
+ Epoch 11 - training loss: 12582.589539527893
+ Validation: 1.0, 1.8687422052025795
+ Epoch 12 - training loss: 12495.17809009552
+ Validation: 1.0, 1.406859926879406
+ Test accuracy 0.4375% solved 43.75
+
+ Epoch 13 - training loss: 12321.30661869049
+ Validation: 1.0, 0.871371453627944
+ Epoch 14 - training loss: 12794.432256698608
+ Validation: 1.0, 1.03815433755517
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 15 - training loss: 12261.269959449768
+ Validation: 1.0, 1.7387658320367336
+ Epoch 16 - training loss: 12014.802047729492
+ Validation: 1.0, 1.4493534788489342
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 57730.82375049591
+ Validation: 1.0, 1.8925758749246597
+ Epoch 2 - training loss: 14745.181005477905
+ Validation: 1.0, 2.0596662499010563
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14062.744821548462
+ Validation: 1.0, 1.4386142268776894
+ Epoch 4 - training loss: 13743.36451625824
+ Validation: 1.0, 2.5423069447278976
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13352.617407798767
+ Validation: 1.0, 1.056404024362564
+ Epoch 6 - training loss: 13292.155817985535
+ Validation: 1.0, 72.23510122299194
+ Test accuracy 0.41705246913580246% solved 0.0
+
+ Epoch 7 - training loss: 12895.803304672241
+ Validation: 1.0, 2.0183302760124207
+ Epoch 8 - training loss: 12389.976308345795
+ Validation: 1.0, 16.474353164434433
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 9 - training loss: 11890.56607246399
+ Validation: 1.0, 1.024599403142929
+ Epoch 10 - training loss: 11816.048493862152
+ Validation: 1.0, 26.43538248538971
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 11 - training loss: 11557.307205677032
+ Validation: 1.0, 1.552121665328741
+ Epoch 12 - training loss: 11566.390252113342
+ Validation: 1.0, 5.270103797316551
+ Test accuracy 0.4375% solved 43.75
+
+ Epoch 13 - training loss: 11512.07274055481
+ Validation: 1.0, 2.328377239406109
+ Epoch 14 - training loss: 11449.971852779388
+ Validation: 1.0, 1.3752039447426796
+ Test accuracy 0.0625% solved 6.25
+
+ Epoch 15 - training loss: 11590.712431430817
+ Validation: 1.0, 1.350049402564764
+ Epoch 16 - training loss: 11456.227311134338
+ Validation: 1.0, 1.5958455465734005
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 55917.053314208984
+ Validation: 1.0, 1.1344098951667547
+ Epoch 2 - training loss: 14347.289813995361
+ Validation: 1.0, 2.9308189153671265
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13963.028890609741
+ Validation: 1.0, 3.515230253338814
+ Epoch 4 - training loss: 13500.682732582092
+ Validation: 1.0, 2.26203316450119
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12462.38304901123
+ Validation: 1.0, 2.2269456200301647
+ Epoch 6 - training loss: 11844.66254234314
+ Validation: 1.0, 1.5765339322388172
+ Test accuracy 0.03125% solved 3.125
+
+ Epoch 7 - training loss: 11837.060052871704
+ Validation: 1.0, 2.5797713473439217
+ Epoch 8 - training loss: 11833.769005775452
+ Validation: 1.0, 2.079774245619774
+ Test accuracy 1.0% solved 100.0
+
+In average, 7.430257320396147% of the feasible solutions are predicted per test instance.
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 0
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 54963.04642486572
+ Validation: 1.0, 1.9929714128375053
+ Epoch 2 - training loss: 14427.903862953186
+ Validation: 1.0, 3.397377669811249
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 13939.208462715149
+ Validation: 1.0, 14.594049781560898
+ Epoch 4 - training loss: 13398.844375610352
+ Validation: 1.0, 1.7561968564987183
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 12831.711805820465
+ Validation: 1.0, 1.4344810135662556
+ Epoch 6 - training loss: 12409.399394989014
+ Validation: 1.0, 1.1419282965362072
+ Test accuracy 0.03125% solved 3.125
+
+ Epoch 7 - training loss: 12105.722909927368
+ Validation: 1.0, 1.043097022920847
+ Epoch 8 - training loss: 11944.153066635132
+ Validation: 1.0, 1.7977230846881866
+ Test accuracy 1.0% solved 100.0
+
+In average, 7.430257320396147% of the feasible solutions are predicted per test instance.
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 1
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 49633.66985988617
+ Validation: 1.0, 3.7852296084165573
+ Epoch 2 - training loss: 14780.816873550415
+ Validation: 1.0, 2.5224833339452744
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14235.66681098938
+ Validation: 1.0, 2.599424973130226
+ Epoch 4 - training loss: 13762.045886993408
+ Validation: 1.0, 1.6729779541492462
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 5 - training loss: 13764.570815086365
+ Validation: 1.0, 2.001424264162779
+ Epoch 6 - training loss: 13517.355759620667
+ Validation: 1.0, 2.369933784008026
+ Test accuracy 0.019290123456790122% solved 0.0
+
+ Epoch 7 - training loss: 13454.794036865234
+ Validation: 1.0, 1.0691497810184956
+ Epoch 8 - training loss: 13235.289552688599
+ Validation: 1.0, 1.1576785296201706
+ Test accuracy 0.47685185185185186% solved 0.0
+
+ Epoch 9 - training loss: 12927.4452958107
+ Validation: 1.0, 1.394607562571764
+ Epoch 10 - training loss: 12887.114863872528
+ Validation: 1.0, 1.3947111181914806
+ Test accuracy 1.0% solved 100.0
+
+ Training with the following parameters:
+ nblock: 2
+ hidden size: 64
+ lr: 0.01
+ weight decay: 0.0
+ batch size: 1
+ L1: 0.0001
+ Train size: 1000
+ Seed: 1
+ E-PLL parameter: 10
+
+ Epoch 1 - training loss: 48926.96386432648
+ Validation: 1.0, 0.7210145816206932
+ Epoch 2 - training loss: 14580.935687065125
+ Validation: 1.0, 1.5139851160347462
+ Test accuracy 0.0% solved 0.0
+
+ Epoch 3 - training loss: 14257.151497840881
+ Validation: 1.0, 2.1015165708959103
+ Epoch 4 - training loss: 13280.3489112854
+ Validation: 1.0, 2.4102053195238113
+ Test accuracy 0.14853395061728397% solved 9.375
+
+ Epoch 5 - training loss: 12507.153960227966
+ Validation: 1.0, 33.703476905822754
+ Epoch 6 - training loss: 11558.769576072693
+ Validation: 1.0, 2.2971902415156364
+ Test accuracy 0.21875% solved 21.875
+
+ Epoch 7 - training loss: 11321.539050102234
+ Validation: 1.0, 2.8447477146983147
+ Epoch 8 - training loss: 10753.133180618286
+ Validation: 1.0, 1.8413336426019669
+ Test accuracy 0.9375% solved 93.75
+
+ Epoch 9 - training loss: 10659.89895439148
+ Validation: 1.0, 3.054670751094818
+ Epoch 10 - training loss: 10597.23361492157
+ Validation: 1.0, 1.7793939635157585
+ Test accuracy 1.0% solved 100.0
+
+In average, 100.0% of the feasible solutions are predicted per test instance.
