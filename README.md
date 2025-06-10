@@ -8,14 +8,14 @@ This requires a Linux/MacOS machine (x86 architecture) with Python3, PyTorch (to
 
 We assume that `wget` and `unzip` are available on the system. If not, ask your system engineer for installation.
 
-If needed install PyTorch and pytoulbar2 with
-
+For `uv` users, use `uv run`instead of `python3`. Otherwise, you'll need to install the following dependencies:
 ```
 pip3 install torch
 pip3 install torchvision
 pip3 install pytoulbar2
 pip3 install pandas
 pip3 install matplotlib
+pip3 install tqdm
 ```
 
 ## Folders
