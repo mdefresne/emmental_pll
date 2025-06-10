@@ -7,6 +7,7 @@ import argparse
 import time
 import pickle
 from tqdm import tqdm
+from Scripts import guess_device
 
 import multiprocessing as mp
 import concurrent.futures
@@ -233,14 +234,7 @@ def main():
  
     args = argparser.parse_args()    
 
-    if torch.cuda.is_available():
-        dev = "cuda:0"
-        print("GPU connected")
-    else:
-        dev = "cpu"
-        print("No GPU detected. Training on CPUs (be patient)")
-    device = torch.device(dev)
-
+    device = torch.device(guess_device())
 
     if args.game_type =="Futoshiki":
         game_utils = Futoshi_utils(train_size = args.train_size, validation_size = args.valid_size,
