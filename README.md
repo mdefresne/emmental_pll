@@ -1,6 +1,6 @@
-# Scalable Coupling of Deep Learning with Logic Reasoning
+# Efficient Neuro-Symbolic Learning of Constraints & Objective
 
-The paper, together with the supplementary information, is available here : https://arxiv.org/abs/2305.07617
+The paper, together with the supplementary information, is currently under review.
 
 ## Learning how to solve Sudoku.
 
