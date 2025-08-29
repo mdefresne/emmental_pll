@@ -1,21 +1,17 @@
 # Efficient Neuro-Symbolic Learning of Constraints & Objective
 
-The paper, together with the supplementary information, is currently under review.
+The paper, together with the supplementary information, is currently under review and available on [arxiv][https://arxiv.org/abs/2508.20978].
 
 ## Learning how to solve Sudoku.
 
-This requires a Linux/MacOS machine (x86 architecture) with Python3, PyTorch (torch and torchvision) and pytoulbar2 installed, roughly 1GB of free disk space, ideally a CUDA GPU with few GBs of VRAM (available as cuda:0 in PyTorch) and few GBs of VRAM. If the code is instead executed on CPU (much slower), 32GB of RAM at least will be required.
+This requires a Linux/MacOS machine (x86 or arm64 architecture respectively) with Python3, PyTorch (torch and torchvision) and pytoulbar2 installed, roughly 1GB of free disk space, ideally a CUDA/MPS GPU (available as cuda:0 or mps in PyTorch) and few GBs of (V)RAM. If the code is instead executed on CPU (much slower), 32GB of RAM at least will be required.
 
 We assume that `wget` and `unzip` are available on the system. If not, ask your system engineer for installation.
 
-For `uv` users, use `uv run`instead of `python3`. Otherwise, you'll need to install the following dependencies:
+If `uv` is not installed on your system, please install it with:
+
 ```
-pip3 install torch
-pip3 install torchvision
-pip3 install pytoulbar2
-pip3 install pandas
-pip3 install matplotlib
-pip3 install tqdm
+wget -qO- https://astral.sh/uv/install.sh | sh 
 ```
 
 ## Folders
@@ -34,6 +30,8 @@ Data sets will be downloaded to the `Data_raw` folder. For reference:
 * the RRN Sudoku data set will be downloaded from [this link](https://www.dropbox.com/s/rp3hbjs91xiqdgc/sudoku-hard.zip) (14MB, 34MB uncompressed)  
 * the One of many solution data set from [this page](https://sites.google.com/view/yatinnandwani/1oml) (47MB, all sudoku_* files)
 * the SATNet Sudoku dataset from [this link](https://powei.tw/sudoku.zip) (142MB, 662MB uncompressed)
+* the HRM 'extreme' dataset will be downloaded from [sapientinc/sudoku-extreme][https://huggingface.co/datasets/sapientinc/sudoku-extreme] repo and 10 grids extracted and augmented (99 augmented grids)
+
 
 To download all data, type:
 
@@ -69,22 +67,20 @@ bash train_sudoku.sh
 Training on the visual Sudoku data set (9,000 grids training set) and testing on hard Sudoku (100 grids of each difficulty):
 
 ```
-python3 Visual_sudoku_grounding.py
+uv run Visual_sudoku_grounding.py
 ```
-
-Since all parameters are fixed based on the experiments on the symbolic Sudoku.
 
 ## MinCut and MaxCut
 To solve MaxCut or MinCut and plot the regret curve in `Results/`:
 
 ```
-python3 Main_Cut.py --problem maxcut
+uv run Main_Cut.py --problem maxcut
 ```
 Use option `--problem mincut` to switch to MinCut.
 
 ## Futoshki
 
 ```
-python3 Main_Futoshiki.py --save_path "Results/model_futoshiki.pk" --game_type Futoshiki --k 10
+uv run Main_Futoshiki.py --save_path "Results/model_futoshiki.pk" --game_type Futoshiki --k 10
 ```
 
