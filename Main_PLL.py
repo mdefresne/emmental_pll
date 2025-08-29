@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 import pandas as pd
 import torch
 import argparse
@@ -27,7 +26,7 @@ def train_PLL(args):
 
         # Creating the dataset
         train_loader = get_loader(
-            train_set[: args.train_size], batch_size=args.batch_size
+            train_set[: args.train_size*(args.HRM+1)], batch_size=args.batch_size
         )
         val_loader = get_loader(valid_set[: args.valid_size], batch_size=1)
 
@@ -57,6 +56,8 @@ def train_PLL(args):
         + str(args.batch_size)
         + "\n L1: "
         + str(args.reg_term)
+        + "\n HRM aug: "
+        + str(args.HRM)
         + "\n Train size: "
         + str(args.train_size)
         + "\n Seed: "
@@ -154,7 +155,7 @@ def train_PLL(args):
         )
         file.close()
 
-        if epoch % int(1 / args.train_size * 2000) == 0:
+        if epoch % int(2000 / (args.train_size * (1 + args.HRM))) == 0:
             # print every 2 epoch with 1000 grids, 10 epoch for 200 grids
             torch.save(
                 {
@@ -233,6 +234,14 @@ def main():
         default=False,
         help="Whether to train on instances with many solutions",
     )
+    argparser.add_argument(
+        "--HRM",
+        type=int,
+        default=0,
+        help="AUgmentation ratio of HRM extreme instances",
+    )
+
+
 
     args = argparser.parse_args()
 
@@ -248,9 +257,9 @@ def main():
         torch.cuda.synchronize()
         total_time = start.elapsed_time(end)  # time in milliseconds
 
-        print("Total training time: " + str(total_time))
+        print(f'Total training time: {round(total_time/1000,2)} seconds')
         file = open("Results/" + args.filename + ".txt", "a")
-        file.write("\n Total training time: " + str(total_time))
+        file.write("\n Total training time: " + str(round(total_time/1000,2))+" seconds")
         file.close()
 
     else:
@@ -269,17 +278,17 @@ def main():
     else:
         test_set = pd.read_csv(args.path_to_data + "test.csv", names=["x", "y"])
         hard_test_set = pd.DataFrame(columns=["x", "y"])
-        for x in test_set["x"]:
-            if np.sum(np.array([int(c) for c in x]) != 0) == 17:
-                hard_test_set = pd.concat((hard_test_set, test_set[test_set["x"] == x]))
+        if args.HRM:
+            hard_test_set = test_set.head(args.test_size)
+        else:
+            for x in test_set["x"]:
+                if np.sum(np.array([int(c) for c in x]) != 0) == 17:
+                    hard_test_set = pd.concat((hard_test_set, test_set[test_set["x"] == x]))
+        
         hard_test_loader = get_loader(hard_test_set, batch_size=1)
-
-        test_set = (
-            many_data_test[: args.test_size] if args.One_of_Many else hard_test_loader
-        )
         test_acc = test(
             model,
-            test_set,
+            hard_test_loader,
             device,
             quick=False,
             resolution=1,
