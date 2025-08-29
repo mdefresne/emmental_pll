@@ -150,13 +150,14 @@ def test(
                     test_loss += hamming
                     if nb_correct_box == cost_fn_size:
                         nb_solved += 1
+                        print(".", end="", flush=True)
 
     if filename != "":
         file = open("Results/" + filename + ".txt", "a")
         file.write("\n Test accuracy " + str(test_loss / num_sample))
         file.write("% solved " + str(nb_solved / num_sample * 100) + "\n")
         file.close()
-    print("Test accuracy", test_loss / num_sample)
+    print("\nTest accuracy", test_loss / num_sample)
     print("% of solved grids", nb_solved / num_sample * 100)
     return (test_loss / num_sample, nb_solved / num_sample * 100)
 
