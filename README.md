@@ -36,8 +36,7 @@ Data sets will be downloaded to the `Data_raw` folder. For reference:
 To download all data, type:
 
 ```
-cd emmental-pll/Data_raw
-bash ../download_data.sh
+bash download_data.sh
 ```
 
 This can take some time, depending on your network connection, and it will eat up to 900MB of your disk space.
