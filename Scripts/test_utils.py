@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 import torch.nn as nn
+from tqdm import tqdm
 
 from Scripts.utils import get_batch_input,maybe_parallelize
 from Scripts.Solver import solver,make_CFN
@@ -108,17 +109,18 @@ def test(
     test_loss, nb_solved = 0, 0
     thresh = nn.Threshold(10 ** (-resolution), 0)
 
+
+    num_sample = len(valid_data) if One_of_Many else len(valid_data.dataset)
+
     with torch.no_grad():
-        for full_data in enumerate(valid_data):
+        for full_data in tqdm(enumerate(valid_data),total=num_sample,smoothing=0):
             if One_of_Many:
                 _, dico = full_data
                 data = torch.Tensor(dico["query"]).reshape(1, -1).to(device)
                 targets = dico["target_set"]
-                num_sample = len(valid_data)
 
             else:
                 batch_idx, (data, target) = full_data
-                num_sample = len(valid_data.dataset)
 
             bs = data.shape[0]
             cost_fn_size = model.grid_size**2
@@ -150,14 +152,13 @@ def test(
                     test_loss += hamming
                     if nb_correct_box == cost_fn_size:
                         nb_solved += 1
-                        print(".", end="", flush=True)
 
     if filename != "":
         file = open("Results/" + filename + ".txt", "a")
-        file.write("\n Test accuracy " + str(test_loss / num_sample))
+        file.write("\nTest accuracy " + str(test_loss / num_sample))
         file.write("% solved " + str(nb_solved / num_sample * 100) + "\n")
         file.close()
-    print("\nTest accuracy", test_loss / num_sample)
+    print("Test accuracy", test_loss / num_sample)
     print("% of solved grids", nb_solved / num_sample * 100)
     return (test_loss / num_sample, nb_solved / num_sample * 100)
 
