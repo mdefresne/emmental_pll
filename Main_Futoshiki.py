@@ -5,6 +5,8 @@ import torch.nn as nn
 import numpy as np
 import argparse
 import time
+import os
+import random
 import pickle
 from tqdm import tqdm
 from Scripts import guess_device
@@ -234,14 +236,19 @@ def main():
  
     args = argparser.parse_args()    
 
+    random.seed(args.seed)
+    os.environ['PYTHONHASHSEED'] = str(args.seed)
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    torch.backends.cudnn.deterministic = True
+
     device = torch.device(guess_device())
 
     if args.game_type =="Futoshiki":
         game_utils = Futoshi_utils(train_size = args.train_size, validation_size = args.valid_size,
                                               test_size = args.test_size, batch_size = args.batch_size, path_to_data = args.path_to_data)
 
-
-    torch.manual_seed(args.seed)
 
     ### TRAINING ###
     if torch.cuda.is_available():

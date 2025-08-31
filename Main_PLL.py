@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import torch
+import random
+import os
 import argparse
 import pickle
 import numpy as np
@@ -31,8 +33,6 @@ def train_PLL(args):
         val_loader = get_loader(valid_set[: args.valid_size], batch_size=1)
 
     #### MODEL ####
-    torch.manual_seed(args.seed)
-
     device = torch.device(guess_device())
 
     model = Net(grid_size, hidden_size=args.hidden_size, nblocks=args.nblocks)
@@ -140,7 +140,7 @@ def train_PLL(args):
                 PLL_tot += PLL.item()
 
         acc_tot = acc_tot / L_tot
-        print(f"Epoch: {epoch}\t Accuracy: {acc_tot:.3f}\t -PLL: {PLL_tot:.1f}")
+        print(f"Epoch: {epoch}\t Accuracy: {acc_tot:.3f}\t -PLL: {PLL_tot:.1f}",end='\t')
 
         file = open("Results/" + args.filename + ".txt", "a")
         file.write(
@@ -240,10 +240,15 @@ def main():
         default=0,
         help="AUgmentation ratio of HRM extreme instances",
     )
-
-
-
     args = argparser.parse_args()
+
+    #### Seed for reproducibility ####
+    random.seed(args.seed)
+    os.environ['PYTHONHASHSEED'] = str(args.seed)
+    np.random.seed(args.seed)
+    torch.manual_seed(args.seed) 
+    torch.cuda.manual_seed(args.seed)
+    torch.backends.cudnn.deterministic = True
 
     ### TRAINING ###
     if torch.cuda.is_available():

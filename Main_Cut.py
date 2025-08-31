@@ -3,6 +3,7 @@
 import json
 import numpy as np
 import os
+import random
 import argparse
 import matplotlib.pyplot as plt
 
@@ -219,6 +220,14 @@ def regret(testloader, graph, model, device, resolution=2, top=9999999):
 
 
 def main():
+    seed = 0
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.backends.cudnn.deterministic = True
+
     argparser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
@@ -241,10 +250,8 @@ def main():
     testloader = DataLoader(testset, batch_size=1, shuffle=False)
 
     n_domain = 2  # Boolean variables
-    torch.manual_seed(0)
     top = 9999999
     resolution = 2
-    np.random.seed(0)
 
     device = torch.device(guess_device())
     model = BridgeNet(n_output=1, pb=pb, n_domain=n_domain)
