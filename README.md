@@ -75,7 +75,7 @@ To solve MaxCut or MinCut and plot the regret curve in `Results/`:
 ```
 uv run Main_Cut.py --problem maxcut
 ```
-Use option `--problem mincut` to switch to MinCut.
+Use option `--problem mincut` to switch to MinCut
 
 ## Futoshki
 
