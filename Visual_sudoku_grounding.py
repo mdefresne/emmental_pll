@@ -141,10 +141,9 @@ for idx, (img, label) in enumerate(mnist_train_set):
 label_len = np.argmin(img_table != -1, axis=1).flatten()  # number of ex of each digit
 
 #### Seed for reproducibility ####
-seed =  2
 random.seed(arg.seed)
 os.environ['PYTHONHASHSEED'] = str(seed)
-np.random.seed(.args.seed)
+np.random.seed(args.seed)
 torch.manual_seed(args.seed) 
 torch.cuda.manual_seed(args.seed)
 torch.backends.cudnn.deterministic = True
