@@ -30,7 +30,7 @@ Data sets will be downloaded to the `Data_raw` folder. For reference:
 * the RRN Sudoku data set will be downloaded from [this link](https://www.dropbox.com/s/rp3hbjs91xiqdgc/sudoku-hard.zip) (14MB, 34MB uncompressed)  
 * the One of many solution data set from [this page](https://sites.google.com/view/yatinnandwani/1oml) (47MB, all sudoku_* files)
 * the SATNet Sudoku dataset from [this link](https://powei.tw/sudoku.zip) (142MB, 662MB uncompressed)
-* the HRM 'extreme' dataset will be downloaded from [sapientinc/sudoku-extreme][https://huggingface.co/datasets/sapientinc/sudoku-extreme] repo and 10 grids extracted and augmented (99 augmented grids)
+* the HRM 'extreme' dataset will be downloaded from [sapientinc/sudoku-extreme][https://huggingface.co/datasets/sapientinc/sudoku-extreme] repo and 10 grids extracted and augmented (99 augmented grids) as performed in the HRM paper (using their augmentation code).
 
 
 To download all data, type:
