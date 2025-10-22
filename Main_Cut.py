@@ -243,13 +243,15 @@ def spo_gradient(W, y_true, instance_capacities, graph, source, well, pb, n_doma
     W_true = CFN_from_capacities(instance_capacities, graph, source, well, pb, n_domain)
     pred = solve_cut(2*W - W_true, source, well, n_domain, resolution, top)
     if pred is None:
-        print("None pred", torch.max(W))
+        print("None pred", torch.max(W).item(), torch.min(W).item())
         return torch.zeros_like(W)
     else:
-        pred_sol, _ = pred
+        pred_sol, pred_cost = pred
 
     spo_grad = 2* (cut_edges(y_true.squeeze(), graph) - cut_edges(pred_sol, graph))
     spo_grad = CFN_from_capacities(spo_grad, graph, source, well, pb, n_domain)
+    if pb == "maxcut":
+        return - spo_grad.unsqueeze(0)
     return spo_grad.unsqueeze(0)
 
 
@@ -273,7 +275,7 @@ def main():
     resolution = 2
 
     results, T = {}, {}
-    for loss in ["epll", "spo"]:
+    for loss in ["spo", "epll"]:
         results[loss] = []
         T[loss] = []
         for seed in range(10):
@@ -326,7 +328,7 @@ def main():
                             pb=pb, 
                             n_domain=n_domain
                             )
-                        W.backward(-spo_grad)
+                        W.backward(spo_grad)
                         optimizer.step()
 
                     if batch_idx % 24 == 0 and batch_idx > 0:
