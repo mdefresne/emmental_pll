@@ -254,6 +254,33 @@ def spo_gradient(W, y_true, instance_capacities, graph, source, well, pb, n_doma
         return - spo_grad.unsqueeze(0)
     return spo_grad.unsqueeze(0)
 
+def plot_time_xaxis(results, T, pb):
+
+    plt.figure()
+    mean_t = {}
+    for key in results.keys():
+        mean_t[key] = []
+
+    for loss in mean_t.keys():
+        all_t = T[loss]
+        i = 0
+        for i in range(10):
+            avg = []
+            for L_t in all_t:
+                if len(L_t) > i:
+                    avg.append(L_t[i])
+            if len(avg)>0:
+                mean_t[loss].append(np.mean(avg))
+    
+    for loss in mean_t.keys():
+        R = np.array(results[loss])
+        R = np.mean(R, axis=0)
+        plt.plot(mean_t[loss], R[:len(mean_t[loss])], label=loss)
+    plt.legend()
+    plt.xlabel("Training time (s)")
+    plt.ylabel("Regret")
+    plt.title(f"{pb} learning task")
+    plt.savefig(f"Results/{pb}_xtime.pdf")
 
 
 def main():
@@ -278,7 +305,7 @@ def main():
     for loss in ["spo", "epll"]:
         results[loss] = []
         T[loss] = []
-        for seed in range(10):
+        for seed in range(2):
             random.seed(seed)
             os.environ['PYTHONHASHSEED'] = str(seed)
             np.random.seed(seed)
@@ -346,9 +373,7 @@ def main():
             results[loss].append(L_reg)
             T[loss].append(L_t)
 
-    #plotting results
-    print(results)
-    print(T)
+    #plotting results (x axis is the number of iteration)
     for loss in results.keys():
         R = np.array(results[loss])
         R = np.mean(R, axis=0)
@@ -358,6 +383,9 @@ def main():
     plt.title(f"{pb} learning task")
     plt.legend()
     plt.savefig(f"Results/{pb}.pdf")
+
+    #x axis is training time
+    plot_time_xaxis(results, T, pb)
 
 if __name__ == "__main__":
     main()
